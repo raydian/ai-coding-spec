@@ -17,7 +17,8 @@ ai-coding-spec/
 ├── agent/                     # Agent 规范（Agent）
 ├── skill/                     # 技能规范（Skill）
 ├── testing/                   # 测试规范（Testing）
-└── documentation/             # 文档规范（Documentation）
+├── documentation/             # 文档规范（Documentation）
+└── governance/                # 系统治理任务清单（Governance）
 ```
 
 > 规范目录使用英文名称；`docs/` 名称保留给 API 文档与 ADR（`docs/api`、`docs/adr`），见 Documentation 规范。
@@ -39,6 +40,10 @@ ai-coding-spec/
 3. [Skill](skill/README.md) — 技能的创建、结构与安全审计标准。
 4. [Testing](testing/README.md) — 分层测试、框架选型与覆盖率要求。
 5. [Documentation](documentation/README.md) — 文档结构、API 文档、ADR 与日志约定。
+
+## 落地计划
+
+- [Governance](governance/README.md) — 系统治理总览：[现状梳理清单](governance/现状梳理清单.md)（工程/代码/架构/部署/服务治理/数据）+ [任务清单](governance/任务清单.md)（八大治理任务）、[任务计划](governance/任务计划.md)、[任务交付](governance/任务交付.md)。
 
 ## 协作原则
 
